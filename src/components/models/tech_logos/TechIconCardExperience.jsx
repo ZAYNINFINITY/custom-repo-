@@ -19,7 +19,7 @@ const TechIconCardExperience = ({ model }) => {
   }, [scene]);
 
   return (
-    <Canvas>
+    <>
       <ambientLight intensity={0.3} />
       <directionalLight position={[5, 5, 5]} intensity={1} />
       <spotLight
@@ -30,8 +30,8 @@ const TechIconCardExperience = ({ model }) => {
       />
       <Environment preset="city" />
 
-      {/* 
-        The Float component from @react-three/drei is used to 
+      {/*
+        The Float component from @react-three/drei is used to
         create a simple animation of the model floating in space.
         The rotationIntensity and floatIntensity props control the
         speed of the rotation and float animations respectively.
@@ -54,7 +54,7 @@ const TechIconCardExperience = ({ model }) => {
       </Float>
 
       <OrbitControls enableZoom={false} />
-    </Canvas>
+    </>
   );
 };
 
