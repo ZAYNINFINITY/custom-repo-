@@ -67,7 +67,7 @@ const HeroSection = () => {
                 enableRotate={false}
               />
               <HinataAvatar
-                position={[0, -1, 0]}
+                position={[0, -0.5, 0]}
                 scale={0.8}
                 onLoad={(vrm) => console.log("Hinata loaded:", vrm)}
               />

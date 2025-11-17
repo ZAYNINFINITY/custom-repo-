@@ -3,6 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { VRM, VRMLoaderPlugin, VRMUtils } from "@pixiv/three-vrm";
 import * as THREE from "three";
+import { useHinataAnimations } from "./HinataAnimations";
 
 const HinataAvatar = ({ position = [0, -1, 0], scale = 1, onLoad }) => {
   const avatarRef = useRef();
@@ -76,6 +77,9 @@ const HinataAvatar = ({ position = [0, -1, 0], scale = 1, onLoad }) => {
       }
     );
   }, [onLoad]);
+
+  // Use the custom animations hook
+  useHinataAnimations(vrm, mixer);
 
   useFrame((state, delta) => {
     if (mixer) {

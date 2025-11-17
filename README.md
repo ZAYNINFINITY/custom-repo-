@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
+    <a href="https://github.com/ZAYNINFINITY" target="_blank">
       <img src="public/images/readme.png" alt="Project Banner">
     </a>
   <br />
@@ -14,7 +14,7 @@
   <h3 align="center">Interactive 3D Portfolio Website</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Built by <a href="https://www.linkedin.com/in/zain-ul-abideen-429735231" target="_blank"><b>Zain Ul Abideen</b></a> - Full Stack Developer, UI/UX Designer & Creative Coder
     </div>
 </div>
 
@@ -24,54 +24,80 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
+5. 🔗 [Links](#links)
 6. 🚀 [More](#more)
-
-## ⚠️ Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+I, Zain Ul Abideen, developed this portfolio as a fully interactive web experience to showcase my skills, projects, and journey as a Full Stack Developer, UI/UX Designer, and Creative Coder. The portfolio combines modern React development, 3D graphics, and VRM avatar integration to create a unique and immersive experience.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+If you're getting started and need assistance or face any bugs, check out my repositories and feel free to reach out!
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<a href="https://www.linkedin.com/in/zain-ul-abideen-429735231" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/ZAYNINFINITY" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
 - React 19
+- Vite
+- Tailwind CSS
+- Three.js & @react-three/fiber
+- @pixiv/three-vrm
+- GSAP
+- EmailJS
 
 ## <a name="features">🔋 Features</a>
 
-### Features of the 3D Portfolio Project
+### Core Structure & Framework
 
-👉 Animated 3D models and reveal animations
+👉 **React 19**: Used to build reusable components and structure the single-page application.
 
-👉 Realistic lighting and shadows
+👉 **Vite**: Fast development server and build tool, providing hot-reloading and optimized production builds.
 
-👉 GSAP-powered scroll interactions
+👉 **Tailwind CSS**: Utility-first CSS framework for responsive, modern styling with a pastel-themed palette.
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+### 3D & Interactive Features
 
-👉 Micro Interactions
+👉 **Three.js & @react-three/fiber**: Enabled 3D scenes in React, including the Hero section and VRM avatar interactions.
 
-👉 Multi-section layout (About, Projects, Contact)
+👉 **@pixiv/three-vrm**: Integrated Hinata VRM avatar as an interactive assistant.
 
-👉 Mobile optimized 3D experience
+👉 **GSAP**: Added smooth animations for avatar gestures, section transitions, and scroll effects.
 
-and many more, including code architecture and reusability.
+### Hinata Avatar Functionality
+
+👉 **Interactive Walk & Wave**: On the first visit, Hinata walks into the scene, waves, and displays a greeting dialogue.
+
+👉 **Idle Animations**: Includes blinking, breathing, and subtle gestures.
+
+👉 **Click Interactions**: Users can click Hinata to navigate to projects or trigger contextual dialogue prompts like "Want to see Zain's projects?"
+
+### Portfolio Sections
+
+👉 **Hero Section**: Interactive welcome with Hinata guiding visitors through the portfolio.
+
+👉 **About Me**: Highlights my background as a passionate developer with expertise in modern web technologies, UI/UX design, and creative coding.
+
+👉 **Projects**:
+
+- E-Commerce Platform: Full-stack solution using React, Node.js, MongoDB, and Stripe.
+- Task Management App: Collaborative task manager built with Vue.js, Firebase, and Tailwind CSS.
+- Weather Dashboard: Responsive weather dashboard leveraging React, OpenWeather API, and Chart.js.
+- Projects link directly to GitHub repositories for demonstration.
+
+👉 **Skills**: Visual representation of proficiency with actual tech I use:
+
+- JavaScript 90%, React 85%, Node.js 80%, Python 75%, Three.js 70%, MongoDB 75%, CSS/SCSS 85%, Git 80%, Docker 65%
+
+👉 **Contact**: Fully functional form integrated with EmailJS to allow visitors to send messages directly.
+
+### Dynamic & Responsive Design
+
+👉 **Scroll-based animations** for smooth transitions between sections.
+
+👉 **Fully responsive layout** compatible with mobile and desktop devices.
+
+👉 **Avatar responds to user interactions**, making the experience engaging and immersive.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -88,8 +114,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
+git clone https://github.com/ZAYNINFINITY/portfolio.git
+cd portfolio
 ```
 
 **Installation**
@@ -120,23 +146,18 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
 
+## <a name="links">🔗 Links</a>
 
-## <a name="links">🔗 Assets and Snippets</a>
-
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
-
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
-
+- **GitHub Repositories**: [https://github.com/ZAYNINFINITY?tab=repositories](https://github.com/ZAYNINFINITY?tab=repositories)
+- **GitHub Profile**: [https://github.com/ZAYNINFINITY](https://github.com/ZAYNINFINITY)
+- **LinkedIn**: [https://www.linkedin.com/in/zain-ul-abideen-429735231](https://www.linkedin.com/in/zain-ul-abideen-429735231)
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with JSM Pro Courses**
+**Connect with me**
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Feel free to reach out through the contact form on the portfolio or connect with me on LinkedIn. I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and development!
 
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+---
+
+Built with ❤️ by Zain Ul Abideen
